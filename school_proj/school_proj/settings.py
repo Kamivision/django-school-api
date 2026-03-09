@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-dkp^p!_enx%o5qc(rix9y#bcm*!n+zijbig)$hxz$yjrz^+0c8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '0.0.0.0', '127.0.0.1']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'student_app',
 ]
 
 MIDDLEWARE = [
@@ -74,8 +75,13 @@ WSGI_APPLICATION = 'school_proj.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'school_db',
+        "HOST": "db-container",
+        "USER": "kamivision",
+        "PASSWORD": "password",
+        "PORT":'5432'
+    
     }
 }
 

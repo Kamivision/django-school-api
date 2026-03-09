@@ -4,3 +4,12 @@
 ```
 source /home/kamivision/corsair/week-5/django-school-api/school_api/bin/activate
 ```
+
+### Resloved Permissions issue
+`sudo chown -R kamivision:kamivision /home/kamivision/corsair/week-5/django-school-api/
+`
+
+sudo runs the command with superuser privileges.
+chown changes the file owner and group.
+-R applies the change recursively to all files and subdirectories.
+kamivision:kamivision sets both the user and group owner to kamivision
