@@ -17,3 +17,6 @@ source /home/kamivision/corsair/week-5/django-school-api-all/school_api/bin/acti
 ### Migrate Model
 `python manage.py makemigrations`
 `python manage.py migrate`
+
+### Enter Django Console
+`python manage.py shell`
