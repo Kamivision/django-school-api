@@ -15,9 +15,6 @@ class Subject(models.Model):
         blank=False
         )
     
-    # students = models.ManyToManyField(
-    #     to='student_app.Student', 
-    #     related_name='subjects')
     
     def __str__(self):
-        return f"< {self.subject_name} >"
+        return f"{self.subject_name} - {self.professor} - {self.students.all()}"
