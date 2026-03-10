@@ -20,3 +20,6 @@ source /home/kamivision/corsair/week-5/django-school-api-all/school_api/bin/acti
 
 ### Enter Django Console
 `python manage.py shell`
+
+### Create App
+`python manage.py startapp` + <app_name>
