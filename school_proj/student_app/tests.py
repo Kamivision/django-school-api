@@ -2,6 +2,7 @@ from django.test import TestCase
 from .models import Student
 from django.core.exceptions import ValidationError
 from django.db import IntegrityError
+from .serializers import StudentAllSerializer, StudentSerializer
 
 
 # Create your tests here.

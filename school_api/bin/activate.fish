@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV /home/kamivision/corsair/week-5/django-school-api/school_api
+set -gx VIRTUAL_ENV /home/kamivision/corsair/week-5/django-school-api-all/school_api
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/"bin $PATH

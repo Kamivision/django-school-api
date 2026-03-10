@@ -2,7 +2,7 @@
 
 ### Entering venv
 ```
-source /home/kamivision/corsair/week-5/django-school-api/school_api/bin/activate
+source /home/kamivision/corsair/week-5/django-school-api-all/school_api/bin/activate
 ```
 
 ### Resloved Permissions issue
