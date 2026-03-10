@@ -42,7 +42,11 @@ class Student(models.Model):
     
     good_student = models.BooleanField(default=True)
     
-    # subjects = models.ManyToManyField(
+    subjects = models.ManyToManyField(
+        to='subject_app.Subject',
+        related_name='students',
+        blank=False
+    )
     
     def __str__(self):
         return f"< {self.name} - {self.student_email} - {self.locker_number}>"

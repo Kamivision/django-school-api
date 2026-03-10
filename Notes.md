@@ -23,3 +23,4 @@ source /home/kamivision/corsair/week-5/django-school-api-all/school_api/bin/acti
 
 ### Create App
 `python manage.py startapp` + <app_name>
+
