@@ -1,7 +1,7 @@
 from django.db import models
 from django.core import validators as val
 from .validators import validate_name_format, validate_school_email, validate_combination_format
-#from .validators import 
+
 
 # Create your models here.
 class Student(models.Model):
@@ -41,6 +41,8 @@ class Student(models.Model):
         )
     
     good_student = models.BooleanField(default=True)
+    
+    # subjects = models.ManyToManyField(
     
     def __str__(self):
         return f"< {self.name} - {self.student_email} - {self.locker_number}>"

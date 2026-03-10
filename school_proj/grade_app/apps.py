@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class SubjectAppConfig(AppConfig):
-    name = 'subject_app'
+class GradeAppConfig(AppConfig):
+    name = 'grade_app'
