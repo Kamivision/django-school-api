@@ -6,7 +6,7 @@ source /home/kamivision/corsair/week-5/django-school-api-all/school_api/bin/acti
 ```
 
 ### Resloved Permissions issue
-`sudo chown -R kamivision:kamivision /home/kamivision/corsair/week-5/django-school-api/
+`sudo chown -R kamivision:kamivision /home/kamivision/corsair/week-5/django-school-api-all/
 `
 
 - sudo runs the command with superuser privileges.

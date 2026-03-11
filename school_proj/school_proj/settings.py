@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', '0.0.0.0', '127.0.0.1']
 
-
+AUTH_USER_MODEL = 'staff_app.Staff'
 # Application definition
 
 INSTALLED_APPS = [
@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'student_app',
     'rest_framework',
     'grade_app',
-    'subject_app'
+    'subject_app',
+    'staff_app',
 ]
 
 MIDDLEWARE = [
